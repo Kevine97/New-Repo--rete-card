@@ -1,0 +1,11 @@
+.margin-auto {
+    margin: 0 auto;
+}
+
+.container-form {
+    @apply lg:relative px-4 flex flex-col justify-center lg:px-12 w-full lg:w-1/2;
+}
+
+.img-logo-form {
+    @apply grid grid-cols-2 md:w-[35%] mt-2 lg:absolute lg:top-0  mb-12 lg:mb-0;
+}

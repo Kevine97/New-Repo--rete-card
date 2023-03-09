@@ -1,0 +1,16 @@
+.sidebar{
+    @apply w-[21.25rem] md:shadow transform -translate-x-full md:translate-x-0 transition-transform duration-150 ease-in bg-background-primary
+};
+
+.sidebar-new-job-button{
+    @apply w-[15.563rem] h-[3.125rem] rounded-[2.663rem] bg-[#4A90E2] font-poppins font-semibold text-font-white text-[1rem] flex items-center
+};
+
+.icon-left-button{
+    @apply mr-[1.794rem] w-[0.931rem] ml-[2.063rem]
+};
+
+.button-content{
+    @apply w-[7.688rem] h-[1.438rem] mr-[3.087rem]
+}
+

@@ -1,0 +1,18 @@
+.label-input {
+    @apply text-[#6B6C6F] font-normal text-[16px] mb-2 inline-block;
+}
+
+.input-container {
+    @apply relative mt-2 shadow-sm rounded-full focus-within:text-[#DFE2E6] border-[#DFE2E6] border-2;
+}
+
+.icon-right {
+    @apply absolute flex items-center right-0 inset-y-0;
+}
+
+.input {
+    @apply text-[#DFE2E6] placeholder-[#DFE2E6] outline-none rounded-full py-3 w-full focus:outline-none focus:shadow-sm pr-[4rem];
+}
+.icon-left {
+    @apply absolute flex items-center left-0 inset-y-0;
+}
